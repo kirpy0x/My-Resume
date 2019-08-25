@@ -50,5 +50,6 @@ td, th {
     text-align: left;
 }
 footer, header{
-    background: lightsteelblue
+    background: lightsteelblue;
+    padding: 0.5%;
 }

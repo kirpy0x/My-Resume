@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(196, 216, 238);
+  }
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+
+}
+body {
+    background-color: rgb(223, 232, 245);
+    margin: 10%;
+}
+article {
+    padding: 20px;
+    background: rgb(196, 216, 238);
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15),
+        0 10px 0 -5px rgb(193, 252, 206),
+        0 10px 1px -4px rgba(0,0,0,0.15),
+        0 20px 0 -10px rgb(253, 208, 251),
+        0 20px 1px -9px rgba(0,0,0,0.15);
+    
+}
+.thumbnail {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+table {
+    border-collapse: collapse;
+    background: rgb(196, 216, 238);
+}
+td, th {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+footer, header{
+    background: lightsteelblue
+}

@@ -1,6 +1,6 @@
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: top;
     padding: 0;
     overflow: hidden;
     background-color: rgb(196, 216, 238);
@@ -10,24 +10,29 @@ li {
 }
 li a {
     display: block;
-    color: white;
+    color: rgb(28, 26, 156);
     text-align: center;
     padding: 5px 10px;
 
 }
 body {
     background-color: rgb(223, 232, 245);
-    margin: 10%;
+    margin: 5%;
+}
+header {
+    text-align: center;
 }
 article {
     padding: 20px;
     background: rgb(196, 216, 238);
+
     box-shadow:
         0 1px 1px rgba(0,0,0,0.15),
         0 10px 0 -5px rgb(193, 252, 206),
         0 10px 1px -4px rgba(0,0,0,0.15),
         0 20px 0 -10px rgb(253, 208, 251),
         0 20px 1px -9px rgba(0,0,0,0.15);
+    margin: 5%;
     
 }
 .thumbnail {
